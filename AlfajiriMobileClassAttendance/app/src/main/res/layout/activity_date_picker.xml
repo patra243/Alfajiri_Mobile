@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dfwhite"
+    tools:context=".DatePickerActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Select Date"
+        app:titleTextColor="@color/anti"
+        android:background="@color/stell"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                    android:id="@+id/datePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Pick a date"
+                    android:focusable="false"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/dateImg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:src="@drawable/ic_date"
+                android:background="@color/dfwhite"
+                android:layout_marginLeft="3dp"
+                app:tint="@color/stell" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/border"
+            android:text="Next"
+            android:textSize="17sp"
+            android:textColor="@color/anti"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

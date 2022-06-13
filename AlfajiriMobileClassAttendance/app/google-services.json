@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694599299712",
+    "firebase_url": "https://alfajiri-mobile-attendance-default-rtdb.firebaseio.com",
+    "project_id": "alfajiri-mobile-attendance",
+    "storage_bucket": "alfajiri-mobile-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694599299712:android:acf7702b5572802fe22c65",
+        "android_client_info": {
+          "package_name": "com.example.alfajirimobileclassattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694599299712-6sa8n068emi0alm9aqsscnp2am78ihjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF3ZuKYkvhLa2wApqEs_fDeI4gsuoiijU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694599299712-6sa8n068emi0alm9aqsscnp2am78ihjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

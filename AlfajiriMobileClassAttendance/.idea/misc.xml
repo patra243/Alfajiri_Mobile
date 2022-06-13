@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/ic_date.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/ic_shape.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/ic_shape_dot.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/drawable/shape_dot.xml" value="0.1" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_account.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_admin.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_admin_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_admin_register.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_admin_screen.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_date_picker.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_department_activity.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_faculty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_faculty_add.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_faculty_list.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_faculty_login.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_faculty_view.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_lec_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_select_student.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_select_unit.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_select_unit_view_attendance.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_show_attendance.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_student.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_student_add.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_student_attendance.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_student_list.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_student_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_take_attendance.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_unit.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_unit_add.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_unit_department.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_unit_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_view_attendance.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/admin_fragment.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/admin_nav.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/attendance_popup.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/drawer_layout.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/faculty_screen.xml" value="0.2439814814814815" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/per_student_layout.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/spinner_item.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/student_screen.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/take_attendance_layout.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/view_attendance.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/welcome_content.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/layout/welcome_content_layout.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/menu/drawer.xml" value="0.264" />
+        <entry key="..\:/Users/patri/AndroidStudioProjects/AlfajiriMobileClassAttendance/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1585" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Alfajiri College Attendance</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="semester">
+        <item>First Semester</item>
+        <item>Second Semester</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Select Department</item>
+        <item>Computer Science</item>
+        <item>Psychology</item>
+        <item>Civil Engineering</item>
+        <item>Architecture</item>
+        <item>Agronomy</item>
+        <item>Biology</item>
+        <item>Economy</item>
+        <item>Mechanic</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+    <string-array name="Unit_name">
+        <item>Computer Graphics</item>
+        <item>.Net Programming</item>
+        <item>Database</item>
+        <item>Artificial Intelligence</item>
+        <item>UI/UX Design</item>
+        <item>PHP</item>
+        <item>Flutter</item>
+    </string-array>
+
+    <string-array name="unit_code">
+        <item>ALA-101</item>
+        <item>ALA-102</item>
+        <item>ALA-103</item>
+        <item>ALA-104</item>
+        <item>ALB-111</item>
+        <item>ALB-112</item>
+        <item>ALB-113</item>
+    </string-array>
+
+    <string-array name="designation">
+        <item>Part-Time</item>
+        <item>Full-Time</item>
+    </string-array>
+
+    <string-array name="mode">
+        <item>Select Mode</item>
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+    <string name="wlcm_details">Manage students and lecturers information, \n
+        course allocation and \n
+        live attendance.
+    </string>
+
+    <string name="wlcm_manage">Manage students and lecturers.</string>
+    <string name="wlcm_allocate">Allocate course to each student.</string>
+    <string name="wlcm_attendance">Take live attendance of each student.</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dfwhite"
+    tools:context=".UnitAddActivity">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Add Units"
+        app:titleTextColor="@color/anti"
+        android:background="@color/stell"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp">
+            
+            <Spinner
+                android:id="@+id/spinnerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"/>
+            
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/txtUnitCode"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Unit Code"
+                android:drawableTint="@color/stell"
+                android:inputType="text"
+                android:focusable="false"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/spinnerFaculty"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:id="@+id/spinnerLec"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmitUnit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textSize="17sp"
+            android:textColor="@color/anti"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

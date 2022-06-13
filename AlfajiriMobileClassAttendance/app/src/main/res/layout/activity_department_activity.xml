@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dfwhite"
+    tools:context=".DepartmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Department"
+        app:titleTextColor="@color/anti"
+        android:background="@color/stell"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border">
+
+            <Spinner
+                android:id="@+id/spnDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border">
+
+            <Spinner
+                android:id="@+id/spnDepartment1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNextDepart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:textColor="@color/anti"
+            android:textSize="17sp"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

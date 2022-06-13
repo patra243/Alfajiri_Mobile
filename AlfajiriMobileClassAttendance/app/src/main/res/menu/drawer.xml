@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/a1">
+        <item
+            android:id="@+id/drawerHome"
+            android:title="Home"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/drawerProfile"
+            android:title="Profile"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/drawerPassword"
+            android:title="Change Password"
+            android:checkable="true"/>
+    </group>
+
+    <group
+        android:id="@+id/b1">
+        <item
+            android:id="@+id/drawerLogout"
+            android:title="Logout"
+            android:checkable="true"/>
+    </group>
+</menu>

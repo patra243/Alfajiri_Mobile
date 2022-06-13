@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dfwhite"
+    tools:context=".UnitDepartmentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Department"
+        android:background="@color/stell"
+        app:titleTextColor="@color/anti"
+        android:id="@+id/toolUnitDep" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"
+                android:id="@+id/deptSpinner"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="5dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/stell"
+                android:id="@+id/modeSpinner"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="17sp"
+            android:textColor="@color/anti"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:id="@+id/icNextBtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/dfwhite">
+
+    <LinearLayout
+        android:id="@+id/spinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:textColor="@color/aspha"
+            android:textSize="17sp"
+            android:textAlignment="gravity"/>
+
+        <TextView
+            android:id="@+id/code1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code"
+            android:textColor="@color/aspha"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:theme="@style/Widget.Material3.CompoundButton.CheckBox"/>
+
+</RelativeLayout>

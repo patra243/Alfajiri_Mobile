@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/dfwhite"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Total Student"
+            android:textSize="18sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Present"
+            android:textSize="18sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Absent"
+            android:textSize="18sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/totalStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Student"
+            android:textSize="13.5sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/presentStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Present"
+            android:textSize="13.5sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/absentStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Absent"
+            android:textSize="13.5sp"
+            android:textColor="@color/aspha"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Confirm"
+            android:textSize="15sp"
+            android:textColor="@color/anti"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Cancel"
+            android:textSize="15sp"
+            android:textColor="@color/anti"
+            android:background="@drawable/border"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
